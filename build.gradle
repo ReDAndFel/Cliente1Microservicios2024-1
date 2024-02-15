@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'co.edu.uniquindio.proyecto'
+version '1.0-SNAPSHOT'
+description 'Cliente de login y saludo'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    implementation 'com.google.code.gson:gson:2.8.8'
+}
+
+test {
+    useJUnitPlatform()
+}
